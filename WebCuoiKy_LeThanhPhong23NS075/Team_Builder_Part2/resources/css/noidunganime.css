@@ -1,0 +1,619 @@
+        /*anime*/
+        @font-face { 
+            font-family:'UTMCafetaRegular';
+            src:url('https://anime47.lol/skin/24032017/font/utm_cafeta-webfont.eot');
+            src:url('https://anime47.lol/skin/24032017/font/utm_cafeta-webfont.eot?#iefix') format('embedded-opentype'), url('https://anime47.lol/skin/24032017/font/utm_cafeta-webfont.woff') format('woff'), url('https://anime47.lol/skin/24032017/font/utm_cafeta-webfont.ttf') format('truetype'), url('https://anime47.lol/skin/24032017/font/utm_cafeta-webfont.svg#UTMCafetaRegular') format('svg');
+            font-weight:normal;
+            font-style:normal;
+          } 
+          @font-face { 
+            font-family:'FontAwesome';
+            src:url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');
+            src:url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+            font-weight:normal;
+            font-style:normal;
+          } 
+          @font-face { 
+            font-family:'tinymce';
+            src:url('https://anime47.lol/js/tinymce/skins/lightgray/fonts/tinymce.eot');
+            src:url('https://anime47.lol/js/tinymce/skins/lightgray/fonts/tinymce.eot?#iefix') format('embedded-opentype'),url('https://anime47.lol/js/tinymce/skins/lightgray/fonts/tinymce.woff') format('woff'),url('https://anime47.lol/js/tinymce/skins/lightgray/fonts/tinymce.ttf') format('truetype'),url('https://anime47.lol/js/tinymce/skins/lightgray/fonts/tinymce.svg#tinymce') format('svg');
+            font-weight:normal;
+            font-style:normal;
+          } 
+            body {  
+              color:#000;
+              font-size:62.5%;
+              line-height:1.428571429;
+              background:#282828;
+              font-family:sans-serif;
+            }  
+          
+          
+          @media (min-width: 768px){ 
+            .row { 
+              margin-right: -10px; 
+              margin-left: -10px;
+            } 
+          }     
+          
+          body { 
+              color: #000; 
+              font-size: 12px; 
+              line-height: 1.5em; 
+              background: #282828 !important;
+              margin: 0;
+              font-family: Arial, sans-serif; 
+              font-size: 14px; 
+              line-height: 1.428571429; 
+              background-color: #ffffff;
+          } 
+          
+          
+          .block-wrapper { 
+              position: relative; 
+              background: #4F4E52 url(https://anime47.lol/skin/24032017/img/item_bg.gif) repeat; 
+              border-bottom: 1px solid #868489; 
+              color: #ddd; 
+              height: auto; 
+              display: block;
+          } 
+          
+          .page-single { 
+              padding: 10px; 
+              width: 1000px;
+          } 
+          
+          blockquote { 
+              padding: 10px 20px; 
+              margin: 0 0 20px; 
+              border-left: 5px solid #eeeeee;
+          } 
+          
+          .block-movie-content { 
+              margin-top: 10px !important; 
+              border: 1px solid #121212; 
+              background: #222; 
+              padding: 10px; 
+              -webkit-border-radius: 2px; 
+              -moz-border-radius: 2px; 
+              border-radius: 2px; 
+              position: relative;
+          } 
+          
+          q:before,q:after,blockquote:before,blockquote:after { 
+              content: "";
+          } 
+          
+          .clear { 
+              clear: both; 
+              line-height: 0px; 
+              overflow: hidden; 
+              display: block; 
+              height: 0px; 
+              max-height: 0px;
+              clear: both;
+          } 
+          
+          .row  { 
+              margin-right: -10px; 
+              margin-left: -10px;
+          } 
+          
+          .row:before,.row:after { 
+              display: table; 
+              content: " ";
+          } 
+          
+          .row:after { 
+              clear: both;
+          } 
+          
+          .block-movie-content .content  { 
+              color: #bbb; 
+              font-size: 13px; 
+              font-family: arial; 
+              line-height: 24px;
+          } 
+          
+          h2 { 
+              font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+              font-weight: 500; 
+              line-height: 1.1;
+              margin-top: 20px; 
+              margin-bottom: 10px;
+              font-size: 32px;
+          } 
+          
+          .movie-info .movie-detail-h2  { 
+              font-size: 14px; 
+              font-weight: bold; 
+              color: #dacb46; 
+              text-transform: uppercase; 
+              margin-top: 5px;
+          } 
+          
+          .like-at-content { 
+              display: inline-block !important; 
+              position: absolute !important; 
+              top: 10px !important; 
+              right: 10px !important; 
+              left: auto !important; 
+              margin: 0 !important; 
+              min-width: 0; 
+              width: 140px !important; 
+              height: 20px; 
+              overflow: hidden !important;
+          } 
+          
+          .fb_iframe_widget { 
+              display: inline-block; 
+              position: relative;
+          } 
+          
+          ul { 
+              margin-top: 0; 
+              margin-bottom: 10px;
+          } 
+          
+          .nav { 
+              padding-left: 0; 
+              margin-bottom: 0; 
+              list-style: none;
+          } 
+          
+          .nav-tabs { 
+              border-bottom: 1px solid #dddddd;
+          } 
+          
+          .nav:before,.nav:after { 
+              display: table; 
+              content: " ";
+          } 
+          
+          .nav:after { 
+              clear: both;
+          } 
+          
+          .movie-detail { 
+              float: right !important;
+          } 
+          
+          .col-6 { 
+              position: relative; 
+              min-height: 1px; 
+              padding-left: 10px; 
+              padding-right: 10px;
+              float: inherit;
+              width: 650px;
+          } 
+          
+          
+          .fb_iframe_widget span  { 
+              display: inline-block; 
+              position: relative; 
+              text-align: justify;
+          } 
+          
+          p { 
+              margin: 0 0 10px;
+          } 
+          
+          .block-movie-content .content p  { 
+              padding: 3px 0px;
+          } 
+          
+          .nav > li  { 
+              position: relative; 
+              display: block;
+          } 
+          
+          .nav-tabs > li  { 
+              float: left; 
+              margin-bottom: -1px;
+          } 
+          
+          .tab-content > .tab-pane  { 
+              display: none;
+          } 
+          
+          .tab-content > .active  { 
+              display: block;
+          } 
+          
+          h1 { 
+              margin: 0.67em 0; 
+              font-size: 2em;
+              font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+              font-weight: 500; 
+              line-height: 1.1;
+              margin-top: 20px; 
+              margin-bottom: 10px;
+              font-size: 38px;
+          } 
+          
+          
+          .movie-info .movie-title  { 
+              margin: 0px 0px 10px 0px; 
+              padding: 0px; 
+              font-size: initial;
+          } 
+          
+          .movie-info .movie-meta-info  { 
+              -webkit-border-radius: 2px; 
+              -moz-border-radius: 2px; 
+              border-radius: 2px; 
+              padding: 5px 8px; 
+              line-height: 26px; 
+              border: 1px solid #121212; 
+              font-size: 12px; 
+              color: #bbb; 
+              background: #222;
+          } 
+          
+          .box-rating { 
+              margin-top: 10px; 
+              padding: 10px; 
+              background: #222; 
+              border: 1px solid #121212; 
+              -webkit-border-radius: 2px; 
+              -moz-border-radius: 2px; 
+              border-radius: 2px;
+                  position: relative;
+          } 
+          
+          
+          .block-movie-info .movie-l-img  { 
+              position: relative;
+          } 
+          
+          .tools-box { 
+              position: absolute; 
+              top: 10px; 
+              left: 20px; 
+              background-color: rgba(0,0,0,0.5); 
+              border-radius: 3px;
+          } 
+          
+          blockquote p:last-child  { 
+              margin-bottom: 0;
+          } 
+          
+          a { 
+              text-decoration: none;
+          } 
+          
+          a:active,a:hover { 
+              outline: none;
+          } 
+          
+          a:hover { 
+              color: #dacb46; 
+              text-decoration: none;
+          } 
+          
+          .nav > li > a  { 
+              position: relative; 
+              display: block; 
+              padding: 10px 15px;
+          } 
+          
+          .nav-tabs > li > a  { 
+              margin-right: 2px; 
+              line-height: 1.428571429; 
+              border: 1px solid transparent; 
+              border-radius: 4px 4px 0 0;
+          } 
+          
+          .nav-tabs > li.active > a  { 
+              color: #555555; 
+              cursor: default; 
+              background-color: #ffffff; 
+              border: 1px solid #dddddd; 
+              border-bottom-color: transparent;
+          } 
+          
+          .nav > li > a:hover { 
+              text-decoration: none; 
+              background-color: #eeeeee;
+          } 
+          
+          .nav-tabs > li > a:hover { 
+              border-color: #eeeeee;
+          } 
+          
+          .nav-tabs > li.active > a , .nav-tabs > li.active > a:hover { 
+              color: #555555; 
+              cursor: default; 
+              background-color: #ffffff; 
+              border: 1px solid #dddddd; 
+              border-bottom-color: transparent;
+          } 
+          
+          .nav > li > a:hover, .nav > li > a:focus { 
+              text-decoration: none; 
+              background-color: #eeeeee;
+          } 
+          
+          .movie-info .movie-title .title-1  { 
+              text-transform: uppercase; 
+              font: 26px 'UTMCafetaRegular'; 
+              color: #dacb46; 
+              display: block;
+          } 
+          
+          .movie-info .movie-title .title-2  { 
+              color: #999; 
+              font-size: 12px;
+          } 
+          
+          .movie-title .title-year  { 
+              font-size: 12px; 
+              color: #999;
+          } 
+          
+          dl { 
+              margin-bottom: 20px;
+          } 
+          
+          .movie-info .movie-dl  { 
+              margin: 0px;
+          } 
+          
+          b { 
+              font-weight: bold;
+          } 
+          
+          img { 
+              max-width: 100%;
+              border: 0;
+              vertical-align: middle;
+          } 
+          
+          
+          .movie-info .movie-l-img img  { 
+              width: 100%;
+          } 
+          
+          .hidden { 
+              display: none !important; 
+              visibility: hidden !important;
+          } 
+          
+          .movie-info .block-movie-info .btn-block  { 
+              position: absolute; 
+              bottom: 0px; 
+              text-align: center; 
+              width: 100%; 
+              background: rgba(0, 0, 0, 0.8); 
+              padding: 10px 0px; 
+              margin: 0px; 
+              list-style: none;
+          } 
+          
+          .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { 
+              color: #555555; 
+              cursor: default; 
+              background-color: #ffffff; 
+              border: 1px solid #dddddd; 
+              border-bottom-color: transparent;
+          } 
+          
+          dt { 
+              line-height: 1.428571429;
+              font-weight: bold;
+          } 
+          
+          .movie-info .movie-dt  { 
+              display: inline;
+          } 
+          
+          dd { 
+              line-height: 1.428571429;
+              margin-left: 0;
+          } 
+          
+          
+          .movie-info .movie-dd  { 
+              display: inline;
+              display: inline; 
+              margin: 0px 10px -4px 2px;
+          } 
+          
+          
+          .movie-info .movie-meta-info .imdb  { 
+              color: #000; 
+              padding: 3px; 
+              font-size: 12px; 
+              font-weight: bold; 
+              background: #E3B71E; 
+              -webkit-border-radius: 3px; 
+              -moz-border-radius: 3px; 
+              border-radius: 3px;
+          } 
+          
+          .block2 { 
+              margin-bottom: 10px; 
+              background: #0F0F0F; 
+              padding: 5px; 
+              overflow: hidden;
+          } 
+          
+          .movie-info .block-movie-info .btn-block .item  { 
+              display: inline-block; 
+              padding: 4px;
+          } 
+          
+          input { 
+              margin: 0; 
+              font-family: inherit; 
+              font-size: 100%;
+              line-height: normal;
+              font-family: inherit; 
+              font-size: inherit; 
+              line-height: inherit;
+          } 
+          
+          .block2.servers .server  { 
+              padding: 10px 15px; 
+              color: #f19e07;
+          } 
+          
+          .col-lg-6 { 
+              position: relative; 
+              min-height: 1px; 
+              padding-left: 10px; 
+              padding-right: 10px;
+          } 
+          
+          @media (min-width: 992px){ 
+            .col-lg-6 { 
+              float: left;
+            } 
+          
+            .col-lg-6 { 
+              width: 50%;
+            } 
+          }     
+          
+          .col-lg-12 { 
+              position: relative; 
+              min-height: 1px; 
+              padding-left: 10px; 
+              padding-right: 10px;
+          } 
+          
+          @media (min-width: 992px){ 
+            .col-lg-12 { 
+              float: left;
+            } 
+          
+            .col-lg-12 { 
+              width: 100%;
+            } 
+          }     
+          
+          .block2.servers .server .name  { 
+              font-weight: 700; 
+              line-height: 28px; 
+              margin-top: 8px;
+          } 
+          
+          .col-sm-12,.col-lg-12 { 
+              position: relative; 
+              min-height: 1px; 
+              padding-left: 10px; 
+              padding-right: 10px;
+          } 
+          
+          @media (min-width: 768px){ 
+            .col-sm-12 { 
+              float: left;
+              width: 100%;
+            } 
+          
+          }     
+          
+          .block2.servers .server .episodes  { 
+              background: rgb(247, 239, 239); 
+              padding-left: 16px; 
+              padding-top: 5px; 
+              border-radius: 5px; 
+              padding-bottom: 5px;
+          } 
+          
+          .block2.servers .server .episodes ul  { 
+              list-style: none; 
+              overflow: hidden; 
+              padding: 0; 
+              margin: 0;
+          } 
+          
+          button { 
+              margin: 0; 
+              font-family: inherit; 
+              font-size: 100%;
+              line-height: normal;
+              text-transform: none;
+              cursor: pointer; 
+              -webkit-appearance: button;
+              font-family: inherit; 
+              font-size: inherit; 
+              line-height: inherit;
+          } 
+          
+          .block2.servers .server .episodes ul li  { 
+              float: left; 
+              margin: 2px;
+          } 
+          
+          .block2.servers .server .episodes ul li a  { 
+              display: block; 
+              -webkit-border-radius: 4px; 
+              -khtml-border-radius: 4px; 
+              -moz-border-radius: 4px; 
+              -ms-border-radius: 4px; 
+              -o-border-radius: 4px;
+          } 
+          
+          .block2.servers .server .episodes ul li a  { 
+              background: #cec9c9; 
+              color: #906; 
+              height: 25px; 
+              line-height: 25px; 
+              padding: 0 10px; 
+              min-width: 45px; 
+              text-align: center; 
+              font-weight: 700; 
+              border-radius: 4px; 
+              -webkit-transition: background .1s ease-in-out 0s; 
+              -khtml-transition: background .1s ease-in-out 0s; 
+              -moz-transition: background .1s ease-in-out 0s; 
+              -ms-transition: background .1s ease-in-out 0s; 
+              -o-transition: background .1s ease-in-out 0s; 
+              transition: background .1s ease-in-out 0s;
+          } 
+          
+          .block2.servers .server .episodes ul li a:hover { 
+              background: #e2bcbc;
+          } 
+          
+          
+          /* These were inline style tags. Uses id+class to override almost everything */
+          #style-P99p2.style-P99p2 {  
+             margin-top: -7px;  
+          }  
+          #style-lOE6n.style-lOE6n {  
+             width:340px;  
+             height:475px;  
+          }  
+          #style-1aGZ6.style-1aGZ6 {  
+             vertical-align: top;  
+              width: 0px;  
+              height: 0px;  
+              overflow: hidden;  
+          }  
+          #style-qZvto.style-qZvto {  
+             border: none;  
+              visibility: visible;  
+              width: 0px;  
+              height: 0px;  
+          }  
+          
+          #style-96rYw.style-96rYw {  
+             background-color: #eef0f2;  
+          }  
+
+
+          /*logo web anime47*/
+          .logo-anime47{
+            background: url(https://anime47.lol/skin/24032017/img/image.png?v=1.2) 0px -320px;
+            width: 260px;
+            height: 55px;
+            display: block;
+        }
+          .chinh-logo{
+            width: 260px;
+            height: 55px;
+            display: block;">
+
+          }

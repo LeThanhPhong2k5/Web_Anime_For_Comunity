@@ -1,0 +1,405 @@
+body {  
+    color:#000;
+    font-size:12px;
+    line-height:1.5em;
+    background:#282828;
+    font-family:sans-serif;
+  }  
+* { 
+    margin: 0; 
+    padding: 0;
+} 
+
+* { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+} 
+
+
+.header { 
+    background: #000 url(https://anime47.cam/skin/24032017/img/header-bg.jpg) repeat-x; 
+    height: auto; 
+    width: 100%; 
+    padding: 0px;
+} 
+
+.container { 
+    padding-right: 10px; 
+    padding-left: 10px; 
+    margin-right: auto; 
+    margin-left: auto;
+} 
+
+@media (min-width: 768px){ 
+  .container { 
+    max-width: 728px;
+  } 
+}     
+
+@media (min-width: 992px){ 
+  .container { 
+    max-width: 940px;
+  } 
+}     
+
+@media (min-width: 1200px){ 
+  .container { 
+    max-width: 1000px;
+  } 
+}     
+
+.widget_search { 
+    display: inline-block; 
+    float: left; 
+    margin-top: 10px; 
+    margin-left: 30px; 
+    position: relative;
+} 
+
+.widget_user_header { 
+    display: inline-block; 
+    float: right; 
+    margin-top: 10px; 
+    color: red;
+} 
+
+.logo {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        padding: 0px 10px;
+        box-sizing: border-box;
+        width: 260px; 
+        height: 53px; 
+        display: inline-block; 
+        margin-top: 0px; 
+        float: left;
+    }
+    .logo img {
+        max-height: 100%;
+}
+
+.widget_user_header .button-register  { 
+    background: transparent url(https://anime47.cam/skin/24032017/img/image.png?v=1.2) no-repeat 0 0; 
+    width: 79px; 
+    height: 38px; 
+    display: inline-block; 
+    float: left;
+} 
+
+.widget_user_header .button-register:hover { 
+    background: transparent url(https://anime47.cam/skin/24032017/img/image.png?v=1.2) no-repeat 0 -41px;
+} 
+
+.widget_user_header .button-login  { 
+    background: transparent url(https://anime47.cam/skin/24032017/img/image.png?v=1.2) no-repeat -79px 0; 
+    width: 98px; 
+    height: 38px; 
+    display: inline-block; 
+    float: left;
+} 
+
+.widget_user_header .button-login:hover { 
+    background: transparent url(https://anime47.cam/skin/24032017/img/image.png?v=1.2) no-repeat -79px -41px; 
+    width: 98px; 
+    height: 38px; 
+    display: inline-block; 
+    float: left;
+} 
+
+.widget_user_header ul li {
+    position: relative;
+}
+
+.widget_user_header ul li a {
+    display: block;
+    color: #FFF;
+    font-size: 15px;
+    padding: 10px 2px;
+    text-decoration: none;
+}
+
+.widget_user_header ul li ul.dropdown li {
+    display: block;
+}
+
+.widget_user_header ul li ul.dropdown {
+    width: 100%; 
+    position: absolute;
+    z-index: 999;  
+    padding: 2px 0;
+    display:none;
+}
+
+.widget_user_header ul li:hover ul.dropdown {
+    display: block;  
+}
+
+.widget_user_header ul li ul.dropdown li button[type="submit"] {
+    background-color: #504b4b;
+    color: #ffffff;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.widget_user_header ul.dropdown li button[type="submit"]:hover {
+    background-color: #434343;
+}
+
+.button-login-with-fb { 
+    background: transparent url(https://anime47.cam/skin/24032017/img/image.png?v=1.2) -177px -1px; 
+    width: 161px; 
+    height: 38px; 
+    display: inline-block;
+} 
+
+.button-login-with-fb:hover { 
+    background: transparent url(https://anime47.cam/skin/24032017/img/image.png?v=1.2) -177px -42px; 
+    width: 161px; 
+    height: 38px; 
+    display: inline-block;
+} 
+
+.widget_search input[type="text"]  { 
+    width: 325px; 
+    outline: none; 
+    border: 1px solid #273e52; 
+    background-color: #F5F5F5; 
+    border-radius: 20px !important; 
+    color: #9f9f9f; 
+    display: inline-block; 
+    padding: 10px 40px; 
+    text-decoration: none; 
+    box-shadow: none !important; 
+    font-size: 13px; 
+    transition: .7s all; 
+    background: #12171b6e url(https://anime47.cam/skin/24032017/img/search.svg) 5px 2px no-repeat;
+} 
+/* ảnh giữa menu và header */
+.gif-center{
+    display: flex;
+    height: 150px; 
+    width: 100%; 
+    padding: 0;
+    
+    
+}
+
+
+/* thanh menu */
+#box_menu { 
+    font-weight: 700; 
+    background: rgb(62, 62, 62); 
+    border: 1px solid #000000; 
+    position: relative; 
+    min-height: 48px; 
+    margin-bottom: 7px;
+    padding: 0px;
+} 
+
+ul { 
+    list-style: none; 
+    margin: 0; 
+    padding: 0;
+} 
+
+li { 
+    list-style: none; 
+    margin: 0; 
+    padding: 0;
+} 
+
+.mn { 
+    float: left; 
+    padding: 0 4px; 
+    font-size: 12px; 
+    position: relative;
+} 
+
+.home { 
+    width: 40px; 
+    height: 40px;
+    background-color: rgb(62, 62, 62);
+    color: ;
+} 
+
+.containt_info li.row::after,.icon,.uba_audioButton,.mn:after { 
+    background-image: url(https://data.tienganh123.com/static_20/images/icon-v2.png?v=202208); 
+    background-repeat: no-repeat; 
+    display: inline-block;
+} 
+
+.mn:after { 
+    position: absolute; 
+    content: ""; 
+    background-position: -289px -10px; 
+    height: 42px; 
+    width: 1px; 
+    top: 2px; 
+    right: 0;
+} 
+
+.mn:hover { 
+    background: #524b44;
+} 
+
+.home:hover { 
+    background-color: #524b44;
+} 
+
+.hover_mn_new,.mn:hover,.mn:hover:after { 
+    background: #524b44;
+} 
+
+.containt_info li.row::after, .icon, .uba_audioButton, .mn::after { 
+    background-image: url(https://data.tienganh123.com/static_20/images/icon-v2.png?v=202208); 
+    background-repeat: no-repeat; 
+    display: inline-block;
+} 
+
+.mn:last-child:after { 
+    background: 0 0;
+} 
+
+a { 
+    text-decoration: none; 
+    color: #ffffff;
+} 
+
+.mn > a  { 
+    line-height: 48px;
+} 
+
+a:hover { 
+    background-color: #524b44;
+} 
+
+.mn:hover > a  { 
+    color: #fff;
+} 
+
+.sub_mn { 
+    position: absolute; 
+    z-index: 9999; 
+    left: 0px; 
+    border: 1px solid #423e3a; 
+    background: #423e3a; 
+    display: none;
+} 
+
+.sub_mn:before { 
+    content: ""; 
+    border: 8px solid transparent; 
+    border-top: 9px solid #f28220; 
+    position: absolute; 
+    top: -1px; 
+    left: 19px;
+} 
+
+.mn:hover .sub_mn  { 
+    display: flex;
+} 
+
+.icon_home { 
+    width: 33px; 
+    height: 26px; 
+    margin-top: 10px; 
+    background-position: -208px -99px;
+} 
+
+.col_sub { 
+    padding: 0 20px; 
+    display: inline-block; 
+    width: 256px; 
+    border-right: 1px dotted #ccc; 
+    margin: 15px 0 10px 0;
+} 
+
+.col_sub li  { 
+    border-bottom: 1px solid #ccc; 
+    padding: 8px 0; 
+    line-height: 22px;
+} 
+.cankhungmenu{
+    padding: 0 20px;
+}
+
+
+
+
+
+/* Thêm hiệu ứng hover cho các phần tử trong Thể loại */
+.mn:hover {
+    background-color: #524b44; /* Thay đổi màu nền */
+    border: 1px solid #FFA500; /* Thay đổi màu đường viền */
+}
+/*khung đề cử*/
+.khungdecu{
+    width: 100%;
+    height: 400px;
+    background-color: #423e3a;
+}
+.decu{
+    width: 100%;
+    height: 350px;
+}
+
+/*Anime trang chủ*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cột với độ rộng cân đối */
+    grid-gap: 10px; /* Khoảng cách giữa các khung */
+}
+/*.grid-item {
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-align: center;
+}
+.item {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    max-height: 200px;
+}*/
+
+.grid-item {
+    width: 235px; /* Đặt chiều rộng của item thành 235px */
+    height: 340px; /* Đặt chiều cao của item thành 600px */
+    box-sizing: border-box; /* Để tránh tràn ra ngoài khung khi thêm padding và border */
+    background-color: #f1f1f1;
+    padding:0 px;
+    text-align: center;
+}
+.item {
+    width: 235px; /* Đặt chiều rộng của ảnh thành 205px để lưu trữ padding */
+    height: 275px; /* Đặt chiều cao của ảnh thành 540px */
+     /* Sử dụng flexbox để căn chỉnh ảnh giữa khung */
+    align-items: center;
+    
+}
+.item img {
+    width: 235px;
+    height: 275px;
+}
+.khungtenanime {
+    display: inherit;
+    width: 235px;
+    height: 65px;
+    background-color: #4f4e52;
+    color: rgb(72, 206, 255);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 3px;
+    padding-right: 3px;
+}
